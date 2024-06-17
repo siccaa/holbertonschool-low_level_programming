@@ -1,2 +1,2 @@
-#!/bin/bash
-gcc -E $CFILE $CFILE.o  
+#!binbash
+gcc -E .o $CFILE $CFILE.o  
