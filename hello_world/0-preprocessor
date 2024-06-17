@@ -1,2 +1,2 @@
 #!/bin/bash
-$PATH sudo mv betty /bin
+export CFILE=0-main.c
