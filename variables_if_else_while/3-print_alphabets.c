@@ -1,7 +1,28 @@
 #include <stdio.h>
-int main() {
-    char c;
-    for (c = 'A'; c <= 'Z'; ++c)
-        printf("%c ", c);
-    return 0;
+
+/**
+ * main - Entry point
+ *
+ * Return: 0
+ */
+int main(void)
+{
+	char a = 'a';
+
+	while (a <= 'z')
+	{
+		putchar(a);
+		a++;
+	}
+
+	a = 'A';
+
+	while (a <= 'Z')
+	{
+		putchar(a);
+		a++;
+	}
+
+	putchar('\n');
+	return (0);
 }
