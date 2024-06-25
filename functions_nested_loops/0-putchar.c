@@ -1,6 +1,10 @@
 #include <stdio.h>
-
-int main() { printf("_putchar ");
+/*
+ *
+ *
+ */
+   int main(0);
+    { printf("_putchar ");
 
  
 return 0;
