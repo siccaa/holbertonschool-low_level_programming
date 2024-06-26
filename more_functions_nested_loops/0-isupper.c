@@ -1,15 +1,19 @@
-#include <main.h>
-
+#include "main.h"
 /**
- * main - check the code.
+ * _isupper - checks if the letters are uppercase
+ *  @c: input.
  *
- * Return: Always 0.
+ *  Return: 1 if c is uppercase
+ *  0 otherwise.
  */
-int main(void)
+int _isupper(int c)
 {
-  if (character == character.toUpperCase()) {
- alert ('upper case true');
-}
-if (character == character.toLowerCase()){
- alert ('lower case true');
+	if ((c >= 'A') && (c <= 'Z'))
+	{
+		return (1);
+	}
+	else
+	{
+		return (0);
+	}
 }
