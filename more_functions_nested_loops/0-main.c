@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-/* Prototype for _isupper */
+
 int _isupper(int c);
 
 int main(void)
